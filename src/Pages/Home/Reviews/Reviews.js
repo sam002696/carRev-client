@@ -18,7 +18,7 @@ const Reviews = () => {
 	useEffect(() => {
 		setIsLoading(true);
 		axios
-			.get('http://localhost:5000/reviews')
+			.get('https://morning-headland-77157.herokuapp.com/reviews')
 			.then(res => {
 				// console.log(res.data);
 				const allReviews = res.data;

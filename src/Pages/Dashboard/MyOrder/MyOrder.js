@@ -43,7 +43,7 @@ const MyOrder = ({ order, orders, setOrders, index }) => {
 			},
 		}).then(result => {
 			if (result.isConfirmed) {
-				const url = `http://localhost:5000/orders/${id}`;
+				const url = `https://morning-headland-77157.herokuapp.com/orders/${id}`;
 				axios
 					.delete(url)
 					.then(res => {

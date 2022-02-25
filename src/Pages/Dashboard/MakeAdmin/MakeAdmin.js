@@ -16,7 +16,7 @@ const MakeAdmin = () => {
 	// load all users
 	useEffect(() => {
 		axios
-			.get(`http://localhost:5000/users`)
+			.get(`https://morning-headland-77157.herokuapp.com/users`)
 			.then(res => {
 				setUsers(res.data);
 			})
@@ -44,7 +44,7 @@ const MakeAdmin = () => {
 		}
 
 		// set admin role in database
-		const url = `http://localhost:5000/users/admin`;
+		const url = `https://morning-headland-77157.herokuapp.com/users/admin`;
 		axios
 			.put(url, data)
 			.then(res => {

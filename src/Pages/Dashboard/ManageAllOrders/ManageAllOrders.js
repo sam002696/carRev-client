@@ -10,7 +10,7 @@ const ManageAllOrders = () => {
 	// load all orders by email
 	useEffect(() => {
 		setProcessing(true);
-		const url = `http://localhost:5000/orders`;
+		const url = `https://morning-headland-77157.herokuapp.com/orders`;
 		axios
 			.get(url)
 			.then(res => {

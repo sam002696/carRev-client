@@ -32,7 +32,7 @@ const AddReview = () => {
 		}
 
 		axios
-			.post('http://localhost:5000/reviews', data)
+			.post('https://morning-headland-77157.herokuapp.com/reviews', data)
 			.then(res => {
 				// console.log(res);
 				if (res.data.insertedId) {

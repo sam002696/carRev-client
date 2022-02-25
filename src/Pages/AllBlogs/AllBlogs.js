@@ -14,7 +14,7 @@ const AllBlogs = () => {
 	useEffect(() => {
 		setIsLoading(true);
 		axios
-			.get('http://localhost:5000/blogs')
+			.get('https://morning-headland-77157.herokuapp.com/blogs')
 			.then(res => {
 				// console.log(res.data);
 				setBlogs(res.data);

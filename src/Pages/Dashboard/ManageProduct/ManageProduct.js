@@ -65,7 +65,7 @@ const ManageProduct = ({ product, products, setProducts, index }) => {
 			},
 		}).then((result) => {
 			if (result.isConfirmed) {
-				const url = `http://localhost:5000/products/${id}`;
+				const url = `https://morning-headland-77157.herokuapp.com/products/${id}`;
 				axios
 					.delete(url)
 					.then(res => {
