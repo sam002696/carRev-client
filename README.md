@@ -1,15 +1,15 @@
-<!-- # Elite Carz | Car Shop Niche React App
+# CarRev | Car Shop Niche React App
 
 <p>
-	<img src="https://raw.githubusercontent.com/FazleRabbiRana/elite-carz-react-client-side/main/public/logo192.png" height="120" />
+	<img src="https://i.ibb.co/KsNxNtd/Car-Rev-logos-black-ccexpress.png" height="120" />
 </p>
 
 This is a Niche website (single product category selling website).
 
-This project is deployed on Firebase. To visit the live website [click here](https://elite-carz.web.app/).\
+This project is deployed on Firebase. To visit the live website [click here](https://car-website-80d87.firebaseapp.com/).\
 To login as an Admin use `admin@admin.com` and `ASd@43!2` respectively for Username and Password.
 
-For the server-side repository [click here](https://github.com/FazleRabbiRana/elite-carz-react-server-side).
+For the server-side repository [click here](https://github.com/sam002696/carRev-server).
 
 ## About This Project
 
@@ -44,4 +44,4 @@ For example, here is the [blogs link](https://morning-headland-77157.herokuapp.c
 ### `icons`
 
 Various icons have been used for this project.\
-Icons are collected from [this](https://react-icons.github.io/react-icons/) awesome icon library. -->
+Icons are collected from [this](https://react-icons.github.io/react-icons/) awesome icon library.
